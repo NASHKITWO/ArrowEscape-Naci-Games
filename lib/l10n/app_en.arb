@@ -1,0 +1,163 @@
+{
+  "appTitle": "Arrow Escapade",
+  "appTagline": "Slide. Solve. Escape.",
+  "levelHeader": "LEVEL {level}",
+  "@levelHeader": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "menuPlay": "PLAY",
+  "menuLevels": "LEVELS",
+  "menuGameModes": "GAME MODES",
+  "menuRandom": "RANDOM",
+  "menuHowToPlay": "HOW TO PLAY",
+  "menuSettings": "SETTINGS",
+  "randomPuzzleTitle": "Random Puzzle",
+  "randomPuzzleSubtitle": "Pick a difficulty tier",
+  "difficultyEasy": "Easy",
+  "difficultyMedium": "Medium",
+  "difficultyHard": "Hard",
+  "difficultyMaster": "Master",
+  "difficultyExpert": "Expert",
+  "dialogCancel": "Cancel",
+  "modesTitle": "MODES",
+  "modeLevelsTitle": "LEVELS",
+  "modeLevelsDesc": "Select and replay any previously unlocked level.",
+  "modeRandomTitle": "RANDOM",
+  "modeRandomDesc": "Generate custom puzzles across 5 difficulty tiers.",
+  "modeZenTitle": "ZEN",
+  "modeZenDesc": "No lives, no timers. Just pure relaxing puzzle solving.",
+  "modeTimeAttackTitle": "TIME ATTACK",
+  "modeTimeAttackDesc": "Race against the clock! Escape arrows to gain extra time.",
+  "modeMultiplayerTitle": "MULTIPLAYER",
+  "modeMultiplayerDesc": "Compete with friends on the exact same puzzle layout.",
+  "levelsTitle": "Levels",
+  "multiplayerTitle": "MULTIPLAYER",
+  "hostRoomTitle": "HOST ROOM",
+  "hostRoomDesc": "Share this room code with a friend to compete on the exact same puzzle layout!",
+  "tooltipNewCode": "New Code",
+  "tooltipCopyCode": "Copy Code",
+  "roomCodeCopied": "Room code {code} copied to clipboard!",
+  "@roomCodeCopied": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "startMatch": "START MATCH",
+  "joinRoomTitle": "JOIN ROOM",
+  "joinRoomDesc": "Enter or paste a room code to join the match.",
+  "joinRoomHint": "e.g. ROOM-849201",
+  "joinRoomErrorEmpty": "Please enter a room code",
+  "joinMatch": "JOIN MATCH",
+  "settingsTitle": "SETTINGS",
+  "themeSectionTitle": "THEME & CUSTOM SKIN",
+  "preferencesSectionTitle": "PREFERENCES",
+  "prefHapticsTitle": "HAPTIC FEEDBACK",
+  "prefHapticsDesc": "Vibrate on arrow taps, moves, and collisions",
+  "prefInfiniteLivesTitle": "INFINITE LIVES",
+  "prefInfiniteLivesDesc": "Play without losing hearts on blocked moves",
+  "prefTapAssistTitle": "TAP ASSIST",
+  "prefTapAssistDesc": "Count taps on empty tiles near arrows as clicks",
+  "unlockThemeTitle": "Unlock Theme & Skins",
+  "unlockThemeDesc": "Unlock all custom themes and premium styling options.",
+  "getUnlockCode": "Get Unlock Code",
+  "enterUnlockCodeHint": "Enter unlock code",
+  "unlockSuccess": "All themes and skins unlocked!",
+  "unlockErrorInvalid": "Invalid unlock code",
+  "unlockNow": "Unlock Now",
+  "howToPlayTitle": "HOW TO PLAY",
+  "sectionTheBasics": "THE BASICS",
+  "guideCoreObjectiveTitle": "Core Objective",
+  "guideCoreObjectiveDesc": "Your goal is to clear the entire puzzle grid by guiding every arrow off the board. When no arrows remain on the board, the level is complete.",
+  "guideMovementTitle": "Arrow Movement",
+  "guideMovementDesc": "Tap any arrow to launch it. Arrows slide forward in the exact direction their arrowhead points: Up, Down, Left, or Right. Even if an arrow has a bent or winding body, it always exits following its tip.",
+  "guideObstaclesTitle": "Obstacles & Collisions",
+  "guideObstaclesDesc": "An arrow can only escape if its entire exit path is completely clear. If another arrow stands in the way, the tapped arrow will shake and stay in place.",
+  "guideLivesTitle": "Lives & Health",
+  "guideLivesDesc": "In Classic mode, you start with 3 hearts. Tapping a blocked arrow costs 1 heart. If you deplete all 3 hearts, you must restart the level. You can toggle Infinite Lives in Settings anytime.",
+  "sectionBoardElements": "BOARD ELEMENTS",
+  "guideTurnDotsTitle": "Turn Dots (Redirectors)",
+  "guideTurnDotsDesc": "Look for circular dots on empty grid cells marked with small arrows. When a sliding arrow crosses a Turn Dot, it instantly pivots in the dot's direction and consumes it, opening unexpected exit routes.",
+  "guideCombosTitle": "Combos & Streaks",
+  "guideCombosDesc": "Release arrows in quick succession (within 1.5 seconds) to trigger combos. Chaining consecutive escapes builds momentum and scores combo multipliers.",
+  "sectionGameModes": "GAME MODES",
+  "guideClassicModeTitle": "Classic Mode",
+  "guideClassicModeDesc": "The standard campaign progression. Advance through handcrafted and procedural stages of escalating size, shape masks, and path complexity with 3 hearts.",
+  "guideZenModeTitle": "Zen Mode",
+  "guideZenModeDesc": "Pure relaxation with zero stress. No hearts to lose, no time limits, and no failure states. Ideal for unwinding and practicing complex boards.",
+  "guideTimeAttackTitle": "Time Attack",
+  "guideTimeAttackDesc": "Fast-paced race against the clock! Every arrow you successfully escape awards precious bonus seconds back onto your countdown timer.",
+  "guideMultiplayerTitle": "Multiplayer Rooms",
+  "guideMultiplayerDesc": "Host or join with room seed codes. Both players compete on the exact same randomized layout to see who can solve and escape the board fastest.",
+  "guideRandomPuzzlesTitle": "Random Puzzles",
+  "guideRandomPuzzlesDesc": "Generate infinite on-demand puzzles across Easy, Medium, Hard, Master, and Expert difficulties without affecting your campaign level progress.",
+  "sectionProStrategies": "PRO STRATEGIES",
+  "guideUnpeelTitle": "Unpeel From the Perimeter",
+  "guideUnpeelDesc": "Start by scanning the outer borders. Arrows pointing straight outward into empty space can always escape immediately, freeing up critical lanes.",
+  "guideTraceBlockersTitle": "Trace Blockers in Reverse",
+  "guideTraceBlockersDesc": "When an arrow is blocked, find which arrow blocks it, then find what blocks that second arrow. Unlocking the final blocker in the chain frees everything behind it.",
+  "guideEnableTapAssistTitle": "Enable Tap Assist",
+  "guideEnableTapAssistDesc": "If you play on smaller screens or tend to tap between tight arrow segments, turn on Tap Assist in Settings to automatically map nearby taps to the nearest arrow.",
+  "leaveLevelTitle": "Leave Level?",
+  "leaveLevelDesc": "Your current level progress will be lost.",
+  "dialogResume": "Resume",
+  "dialogLeave": "Leave",
+  "comboBanner": "{combo} x COMBO",
+  "@comboBanner": {
+    "placeholders": {
+      "combo": {
+        "type": "int"
+      }
+    }
+  },
+  "bonusTimeBanner": "+15s",
+  "scoreTitle": "Score: {score}",
+  "@scoreTitle": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "randomModeTitle": "Random Mode",
+  "levelNumberTitle": "Level {level}",
+  "@levelNumberTitle": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "levelCompleteTitle": "Level Complete!",
+  "gameFinishedTitle": "You Finished the Game!",
+  "gameFinishedDesc": "Congratulations! You've solved all 500 challenges. Stay tuned for more levels coming soon!",
+  "nextLevel": "Next Level",
+  "home": "Home",
+  "buyMeACoffee": "Buy me a coffee",
+  "timesUp": "Time's Up!",
+  "outOfTime": "Out of Time!",
+  "outOfLives": "Out of Lives!",
+  "timeAttackStats": "Puzzles Cleared: {score}\nFinal Level: {level}",
+  "@timeAttackStats": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "startNewRun": "Start New Run",
+  "restartLevel": "Restart Level",
+  "loadingLevel": "LOADING LEVEL...",
+  "aboutTitle": "ABOUT",
+  "madeByNaciGames": "Made by Naci Games",
+  "founderInfo": "Founder: Muhammad Ikhsan\nInformatics Engineering, Universitas Pamulang\nican3192@gmail.com",
+  "basedOnCredit": "Based on Arrow Escape by sidhant947 (GPL-3.0)."
+}
