@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/app_colors.dart';
 import '../../core/app_themes.dart';
 import '../../core/audio_haptic_helper.dart';
+import '../../core/seed_utils.dart';
 import '../../l10n/app_localizations.dart';
 import '../../main.dart';
 import '../game/game_screen.dart';
@@ -42,13 +43,7 @@ class _MultiplayerSeedScreenState extends ConsumerState<MultiplayerSeedScreen> {
     });
   }
 
-  int _codeToLevelNumber(String code) {
-    final cleaned = code.trim().toUpperCase().replaceAll('ROOM-', '').replaceAll('AE-', '');
-    if (cleaned.isEmpty) return 1;
-    final parsed = int.tryParse(cleaned);
-    if (parsed != null && parsed > 0) return parsed;
-    return (cleaned.hashCode.abs() % 999999) + 1;
-  }
+  int _codeToLevelNumber(String code) => roomCodeToLevelNumber(code);
 
   void _playRoom(String code) {
     AudioHapticHelper.playClick();
